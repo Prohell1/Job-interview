@@ -1,9 +1,11 @@
 # Hazi Feladat
-```SELECT SUM(Keszlet) FROM Cikk
+```
+SELECT SUM(Keszlet) FROM Cikk
 WHERE Datum = '2014-12-31' AND Raktarkod = 'Berlet';
 ```
 
-```SELECT SUM(Mennyiseg) FROM Cikktetel
+```
+SELECT SUM(Mennyiseg) FROM Cikktetel
 WHERE Cikktetel.Raktarkod = "Telep" Cikktetel.Datum = "2014-12-31"
 ```
 
