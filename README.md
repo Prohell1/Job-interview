@@ -1,9 +1,11 @@
 # Hazi Feladat
 ```SELECT SUM(Keszlet) FROM Cikk
-WHERE Datum = '2014-12-31' AND Raktarkod = 'Berlet';```
+WHERE Datum = '2014-12-31' AND Raktarkod = 'Berlet';
+```
 
 ```SELECT SUM(Mennyiseg) FROM Cikktetel
-WHERE Cikktetel.Raktarkod = "Telep" Cikktetel.Datum = "2014-12-31"```
+WHERE Cikktetel.Raktarkod = "Telep" Cikktetel.Datum = "2014-12-31"
+```
 
 Eloszor megnezem, hogy mekkora az aznapi keszlet a BERLET raktarban.
 Ehhez hozzaadom azokat a kontenereket, amelyeket aznap hoztak vissza, de nem vittek el, azaz:
