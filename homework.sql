@@ -17,6 +17,7 @@ CREATE TABLE Cikktetel (
     Raktarkod VARCHAR(6),
     Mennyiseg INT(255),
     Mertekegyseg VARCHAR(20),
+    PRIMARY KEY (Tetelszam),
     FOREIGN KEY (Cikkszam) REFERENCES Cikk(Cikkszam)
 );
 
