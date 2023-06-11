@@ -6,7 +6,7 @@ WHERE Datum = '2014-12-31' AND Raktarkod = 'BERLET';
 
 ```
 SELECT SUM(Mennyiseg) FROM Cikktetel
-WHERE Raktarkod = "TELEP" Datum = "2014-12-31"
+WHERE Raktarkod = "TELEP" AND Datum = "2014-12-31"
 ```
 
 Eloszor megnezem, hogy mekkora az aznapi keszlet a BERLET raktarban.
