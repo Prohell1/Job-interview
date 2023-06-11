@@ -1,12 +1,12 @@
 # Hazi Feladat
 ```
 SELECT SUM(Keszlet) FROM Cikk
-WHERE Datum = '2014-12-31' AND Raktarkod = 'Berlet';
+WHERE Datum = '2014-12-31' AND Raktarkod = 'BERLET';
 ```
 
 ```
 SELECT SUM(Mennyiseg) FROM Cikktetel
-WHERE Cikktetel.Raktarkod = "Telep" Cikktetel.Datum = "2014-12-31"
+WHERE Raktarkod = "TELEP" Datum = "2014-12-31"
 ```
 
 Eloszor megnezem, hogy mekkora az aznapi keszlet a BERLET raktarban.
